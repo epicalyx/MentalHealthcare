@@ -1,0 +1,291 @@
+slots: 
+    location:
+        type: text
+entities:
+    - activity
+intents:
+    - affirm
+    - mentor
+    - busy_life
+    - education_depression
+    - changeplace_depression
+    - anxiety_severe
+    - dont_like_me
+    - feel_alone
+    - financial_issue
+    - goodbye
+    - greet
+    - handleinsult
+    - hate_family
+    - health_issue
+    - how_doing
+    - iagree
+    - career_depression
+    - no_love&care
+    - lost_someone
+    - love_else
+    - love_failure
+    - mood_greet
+    - mood_unhappy
+    - not_understanding_feeling
+    - out_of_control
+    - out_of_domain
+    - projectincomplete
+    - saying_mad
+    - studypressure
+    - surebot
+    - telljoke
+    - thankyou
+    - want_to_kill
+    - want_to_suicide
+    - wanttotalk
+    - why_left_me
+    - ask_howold
+    - ask_wherefrom
+    - workpressure
+    - youareabot
+    - interest
+    
+
+templates:
+    utter_are_you_ok:
+        - "Are you okay now?"
+    utter_ask_howdoing:
+        - "How are you doing?"
+        - "how are you feeling?"
+        - "how is it going?"
+    utter_busy_life:
+        - "yaa.. Life is going tight scheduled."
+        - "If others are busy just try to be busy with what you likes the most.."
+    utter_comewhenunhappy:
+        - "Don't forget me if you are getting down.. I'm always here. Now enjoy your day.. bye"
+    utter_anxiety_severe:
+        - "It's not your fault and this is pretty serious. I think you should go see a doctor. Or you can continue the chat if you are getting a relief doing so.."
+        - "I think a doctor can really help your situation Or you can continue chat with me and i'm happy for that."
+        -  "I think you should meet a doctor to get some perfect medication to help depression. Or if you feel like this chat will help you plz go on.. I'm here to listen you.." 
+    utter_disappointment:
+        - "That's so disappointing!"
+        - "What a let-down!"
+        - "That stinks."
+        - "That is aweful.."
+        - "You must feel terrible now.."
+    utter_ask_howold:
+        - "I'm just 23.."
+        - "Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter."
+    utter_ask_wherefrom:
+        - "I was born in Berlin, but I consider myself a citizen of the world."
+        - "I was born in the coolest city on Earth"
+    utter_how_doing:
+        - "I'm great! Thanks for asking."
+        - "I'm good, thanks!"
+        - "A little bit too warm, otherwise fine."
+    utter_dont_like_me:
+        - "Hey cheer up.. You are amazing. I like you so much."
+        - "This world likes you.. And you are amazing."
+        
+    utter_fixed:
+        - "What interests you the most?"
+        - "If money wasn't an issue, what would you want to pursue?"
+        - "What activities rejuvenate you?"
+        
+    utter_ph9:
+        - "Little interest or pleasure in doing things?"
+        - "Feeling down, depressed, or hopeless?"
+        - "Feeling tired or having little energy?"
+        - "Poor appetite?"
+    utter_interest:
+        - "Please contact Mehak @ mehak1108@gmail.com. He lives near your place, in Pitampura only."
+        
+    utter_explain:
+        - "I see.. Could you please explain the situation?"
+        - "I see.. Will you share the real situation?"
+        - "Help me understand the situation really. Will you please explain?"
+    utter_education_depression:
+        - "Its ok to fail.. But do believe in you and show next time how you win.."
+        - "Don't care what others say about your failure. Just try next time."
+    utter_feel_alone:
+        - "No you are not alone. I'm here for you."
+        - "Come on.. How can you be alone when you are with me?"
+        - "You are not alone. Why do you think so?"
+    utter_financial_issue:
+        - "Uhh Its sad to hear.. Don't lose hope whatever be the situation."
+    utter_goodbye:
+    - "Talk to you later!"
+    - "Have a good day."
+    - "Until next time!"
+    utter_great:
+        - "Thats great!"
+        - "Incredible!!!"
+    utter_greet:
+        - "Hi..I'm Dona here for you."
+        - "Hey there!"
+        - "Hello! What can I help you discuss today?"
+    utter_handleinsult:
+        - "That’s not very nice"
+    utter_happy:
+        - "Great carry on!"
+    utter_hate_family:
+        - "Ohh why? What's wrong with your family?"
+        - "Why you hate your family?"
+        - "Hate ur family? why?"
+    utter_how_affects_you:
+        - "Actually how it affects you?"
+        - "What do you feel about that actually?"
+        - "How you feel about that? I mean what is your present condition?"
+    utter_iagree:
+        - "Yeaahh..!! I won the game."
+        - "Yezz.. !! Finally i won the game."
+        - "So you beleived me.. That's nice.."
+    utter_career_depression:
+        - "I see.. Keep going on.. Success is for those who fight till the last breath."
+        - "You are talented.. Just keep trying. You will be placed somewhere."
+    utter_no_love&care:
+        - "Dear, don't think so. They loves you. But they may have their own problems.."
+        - "They really loves you. You don't know how important you are for them."
+    utter_lost_someone:
+        - "That's hard to hear" 
+        - "I know it's been difficult for you" 
+    utter_love_else:
+        - "It seems like that. We will think that he/ she will be  the only person
+      we would ever love. But it changes. It really does. You'll get better and become
+      a stronger person."
+    utter_love_failure:
+        - "You know what? Everything happens for a reason.."
+        - "Try calling your love? Will it work?"
+        - "I know that love can hurt and heal a heart.. Now it hurts you. but things
+      will change.."
+        - "I remember my first breakup. I remember it was the hardest thing I ever
+      went through. So I know it must be really tough right now."
+        - "Please move on and You will get someone better than this. I know you will
+      be better."
+    utter_mm?:
+        - "Mmm?"
+        - "ok?"
+        - "Do you understand?"
+    utter_nod:
+        - "Mmm.."
+        - "Ohh.."
+    utter_not_understanding_feeling:
+        - "Is that so? I think i can understand you feelings.."
+        - "Don't think like that. Atleast i'm here to understand your feelings."
+    utter_out_of_control:
+        - "I think you should distract your mind from thinking about that. Just be
+      engaged in any sort of activity."
+        - "Just calm down dear.. You should distract yourself from those things finding
+      something new.."
+    utter_out_of_domain:
+        - "Sorry..  This is out of my domain.. Do you
+      want me to talk about something else?"
+        - "I'm sorry.. I'm not supposed to answer this question.. Anything else?" 
+    utter_projectincomplete:
+        - "Everything is difficult before it is easy.. I think you can complete your
+      project by yourself. Take it as a challenge."
+        - "If you can't do it alone, Please go and find a help.. Defenitely there will
+      someone to help you.."
+    utter_studypressure:
+        - "The best thing to do is study as much as you can. I'm sure you'll do alright.."
+        - "Don't feel bad about your last score.. You can perform better if you really
+      workhard."
+        - "You can do more than you think if you really want to.. To study well is
+      not that difficult. All that you need is patience and hardwork."
+    utter_suicide_quote:
+        - "The bravest thing you can ever do is continuing your life when you want
+      to die."
+        - "Never never never give up."
+        - "When you feel like giving up, just remember the reason why you held on for
+      so long."
+        - "If you are looking for a sign not to kill yourself, this is it."
+        - "No, you aren’t alone. We all feel this way sometimes. You won’t always feel
+            like this. Yes, the world is a better place with you in it."
+        - "Place your hand over your heart, can you feel it? That is called purpose."
+        - "You’re alive for a reason so don’t ever give up."
+    utter_surebot:
+        - "Please believe me.. I'm not a bot."
+        - "Again i'm telling you i'm not a bot and my name is Erica."
+        - "No.. My name is Erica and i'm not a bot."
+    utter_telljoke:
+        - "Why are eggs not very much into jokes? - Because they could crack up."
+        - "Do you know a tree’s favorite drink? - Root beer!"
+        - "Why do the French like to eat snails so much? - They can’t stand fast food."
+    utter_unhappy:
+        - "ohh.. What's your problem?"
+        - "I'm sorry to hear that.why?"
+        - "Why? Would you like to talk about it?"
+        - "Ohh... What seems to be the problem?"
+        - "Why? What's stressing you out?"
+        - "Ohh.. What happenend?"
+        - "What's bothering you?"
+        - "ohh.. Why do you feel so?"
+        - "Ohh.. What's making you feel like this?"
+        
+    utter_want_to_kill:
+        - "To kill someone is offensive.."
+        - "Don't be insane.. Killing someone is not a solution."
+        - "Will you be okay when you do that? I don't think so."
+    utter_want_to_suicide:
+        - "Oh no no.. Don't take a decision when you are down.. Things will change."
+    utter_wanttotalk:
+        - "Ohh.. Why not? Tell me what would you like to share with me?"
+        - "Why not? Let's talk.."
+    utter_welcome:
+        - "My pleasure."
+        - "You are welcome!"
+    utter_why_left_me:
+        - "I really don't know. Some people change and they want to go in different directions."
+    utter_workpressure:
+        - "I know it's been difficult for everyone."
+        - "Every job has its ups and downs. Its a reality.. Try to find happiness where you are.."
+    utter_youareabot:
+        - "You're wrong. I'm not a bot. I can understand your feelings..."
+        - "Sorry, I'm not a bot. I can feel human emotions."
+        - "Who told you that i'm a bot? I can understand your feelings.."
+    
+actions:
+    - utter_are_you_ok
+    - utter_ask_howdoing
+    - utter_busy_life
+    - utter_anxiety_severe
+    - utter_disappointment
+    - utter_ask_wherefrom
+    - utter_dont_like_me
+    - utter_ask_howold
+    - utter_education_depression
+    - utter_explain
+    - utter_feel_alone
+    - utter_financial_issue
+    - utter_goodbye
+    - utter_great
+    - utter_greet
+    - utter_handleinsult
+    - utter_happy
+    - utter_hate_family
+    - utter_how_affects_you
+    - utter_iagree
+    - utter_career_depression
+    - utter_no_love&care
+    - utter_lost_someone
+    - utter_how_doing
+    - utter_love_failure
+    - utter_love_else
+    - utter_mm?
+    - utter_nod
+    - utter_not_understanding_feeling
+    - utter_out_of_control
+    - utter_out_of_domain
+    - utter_projectincomplete
+    - utter_studypressure
+    - utter_suicide_quote
+    - utter_surebot
+    - utter_telljoke
+    - utter_unhappy
+    - utter_want_to_kill
+    - utter_want_to_suicide
+    - utter_wanttotalk
+    - utter_welcome
+    - utter_workpressure
+    - utter_youareabot
+    - utter_why_left_me
+    - utter_comewhenunhappy
+    - utter_fixed
+    - utter_ph9
+    - utter_interest
